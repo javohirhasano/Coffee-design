@@ -174,7 +174,7 @@ i.bar{
     display: inline-block;
 }
 .section{
-    background-position: center;
+    width: 100%;
 }
 .bar1-menu.active{
     display: inline-block;
