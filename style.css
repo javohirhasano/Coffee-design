@@ -166,6 +166,46 @@ border-top: 2px solid rgb(241, 211, 156);
    color: black;
    transition: 0.6s;
 }
+
+.section1{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+   
+}
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  
+}
+.row.card1{
+   padding-top: 30px;
+   background-color: rgb(16, 16, 95);
+}
+span{
+    color:rgb(241, 211, 156) ;
+}
+.aboutimage{
+    width: 400px;
+    height: 300px;
+    top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:900px){
 .header-row{
     display: none;
@@ -173,9 +213,7 @@ border-top: 2px solid rgb(241, 211, 156);
 i.bar{
     display: inline-block;
 }
-.section{
-    width: 100%;
-}
+
 .bar1-menu.active{
     display: inline-block;
    transition: width 20s;
