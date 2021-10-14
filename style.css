@@ -71,7 +71,7 @@ i:hover{
 
 .section{
     margin-top: 80px;
-    widows: 100%;
+    width: 100%;
     height: 100vh;
     background-image: url(./imges/home-img.jpeg);
     background-repeat: no-repeat;
