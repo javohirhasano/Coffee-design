@@ -23,7 +23,7 @@ window.onscroll = () => {
 
 }
 
-const parallax = document.getElementById("#about")
+const parallax = document.getElementById("#abouts")
 
 window.addEventListener("scroll", function () {
     let offset = window.pageYOffset;
