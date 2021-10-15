@@ -22,3 +22,10 @@ window.onscroll = () => {
     Product.classList.remove("active3")
 
 }
+
+const parallax = document.getElementById("#about")
+
+window.addEventListener("scroll", function () {
+    let offset = window.pageYOffset;
+    parallax.style.backgroundPositionY = offset * 0.3 + "px"
+})
